@@ -1,13 +1,15 @@
 // JSON Document
 [
   {
-    "name": "Home",
-    "url" : "/",
-	  "exact": true,
+    path: '/',
+    component: Home,
+    exact: true,
+    name: "Home"
   },
   {
-    "quote": "About",
-    "author" : "/About",
-	  "exact": false,
+    path: '/About',
+    component: About,
+    exact: true,
+    name: "About"
   }
 ]
