@@ -1,0 +1,13 @@
+// JSON Document
+[
+  {
+    "name": "Home",
+    "url" : "/",
+	  "exact": true,
+  },
+  {
+    "quote": "About",
+    "author" : "/About",
+	  "exact": false,
+  }
+]
